@@ -1,0 +1,15 @@
+{
+  "name": "steel-project-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "mongodb": "^7.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+*.log
+frontend/node_modules/
+frontend/dist/
+backend/node_modules/
+backend/.env
+
+frontend/public/assets/
+extracted_assets/
+PATEL STEEL/
