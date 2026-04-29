@@ -5,16 +5,16 @@ const ProductsDynamic = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const ladderImages = [
-    '/assets/Household Hardware Item/Ladder - Photo.jpg',
-    '/assets/Household Hardware Item/PECO - Ladder - Catalouge.jpg',
-    '/assets/Household Hardware Item/Ladder - Catalouge_page-0002.jpg',
-    '/assets/Household Hardware Item/Ladder - Catalouge_page-0003.jpg',
+    '/assets/household/Ladder - Photo.jpg',
+    '/assets/household/PECO - Ladder - Catalouge.jpg',
+    '/assets/household/Ladder - Catalouge_page-0002.jpg',
+    '/assets/household/Ladder - Catalouge_page-0003.jpg',
   ];
 
   const bedFittingImages = [
-    '/assets/Household Hardware Item/bed-fitting-1.jpeg',
-    '/assets/Household Hardware Item/PECO - Bed Fitting - Catalouge.jpg',
-    '/assets/Household Hardware Item/bed-fitting-3.jpeg',
+    '/assets/household/bed-fitting-1.jpeg',
+    '/assets/household/PECO - Bed Fitting - Catalouge.jpg',
+    '/assets/household/bed-fitting-3.jpeg',
   ];
 
   useEffect(() => {

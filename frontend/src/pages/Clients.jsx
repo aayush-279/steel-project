@@ -36,7 +36,7 @@ const Clients = () => {
             {logos.map((filename, index) => (
               <img
                 key={`logo-1-${index}`}
-                src={`/assets/LOGO/PARTIES LOGO/${filename}`}
+                src={`/assets/clients/${filename}`}
                 alt={`Client Logo ${index + 1}`}
                 className="h-24 md:h-36 w-auto max-w-[300px] object-contain mix-blend-multiply transition-transform duration-300 hover:scale-110"
               />
