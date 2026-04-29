@@ -55,7 +55,7 @@ const Quality = () => {
             <div className="flex flex-col items-center">
               <div className="bg-white p-4 shadow-md border border-outline-variant hover:shadow-xl transition-shadow w-full group overflow-hidden">
                 <img 
-                  src="/assets/Patel Engineering Co. - ISO Certificate.jpg" 
+                  src="/assets/brand/iso-cert.jpg" 
                   alt="ISO Certificate" 
                   className="w-full h-auto object-contain bg-surface-container-low transition-transform group-hover:scale-105"
                 />
@@ -66,7 +66,7 @@ const Quality = () => {
             <div className="flex flex-col items-center">
               <div className="bg-white p-4 shadow-md border border-outline-variant hover:shadow-xl transition-shadow w-full group overflow-hidden">
                 <img 
-                  src="/assets/Patel Engineering Co. - ZED Certificate.jpg" 
+                  src="/assets/brand/zed-cert.jpg" 
                   alt="ZED Certificate" 
                   className="w-full h-auto object-contain bg-surface-container-low transition-transform group-hover:scale-105"
                 />

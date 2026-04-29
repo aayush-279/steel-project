@@ -41,7 +41,7 @@ const Header = () => {
         <div className="flex items-center gap-12">
           <div className="flex items-center gap-3 sm:gap-4">
             <img 
-              src="/assets/LOGO & CERTIFICATE/Patel Engineering Co. - Logo - Final (PNG).png" 
+              src="/assets/brand/logo.png" 
               alt="Patel Engineering Co. Logo" 
               className="h-10 sm:h-12 w-auto"
             />
