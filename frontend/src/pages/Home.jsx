@@ -59,18 +59,7 @@ const Home = () => {
         </div>
       </header>
 
-      {/* Tenders Ticker */}
-      <div className="bg-primary-container border-y border-white/10 py-3 overflow-hidden">
-        <div className="flex items-center gap-12 whitespace-nowrap animate-marquee">
-          <span className="flex items-center gap-2 text-white font-label-sm uppercase tracking-tighter">
-            <span className="material-symbols-outlined text-secondary text-sm">notifications_active</span>
-            Latest Tenders:
-          </span>
-          <span className="text-tertiary-fixed font-body-md text-sm border-r border-white/20 pr-12">Supply of TMT Bars for Ahmedabad Metro Phase II - [Ref: PSE-2024-089]</span>
-          <span className="text-tertiary-fixed font-body-md text-sm border-r border-white/20 pr-12">Structural Fabrication for Reliance Jamnagar Expansion - [Ref: PSE-2024-112]</span>
-          <span className="text-tertiary-fixed font-body-md text-sm border-r border-white/20 pr-12">Industrial Shed Construction for GIDC Vatva - [Ref: PSE-2024-077]</span>
-        </div>
-      </div>
+
 
       {/* About Legacy Section */}
       <section className="py-section-gap structural-grid">
