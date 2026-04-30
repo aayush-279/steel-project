@@ -145,11 +145,11 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
             {/* Shed Construction */}
             <div className="md:col-span-2 relative group overflow-hidden bg-white border border-outline-variant">
-              <img className="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105" alt="massive industrial shed construction" src="/assets/IMG_20210601_121143.jpg" />
+              <img className="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105" alt="massive industrial shed construction" src="/assets/industrial_shed_exterior.jpg" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-8">
                 <h3 className="font-headline-md text-white mb-2">Industrial Shed Construction</h3>
-                <p className="text-white/80 font-body-md max-w-lg mb-6">Expert design and installation of factory sheds and warehouses, engineered for longevity and structural safety.</p>
+                <p className="text-white/80 font-body-md max-w-lg mb-6">Full-scale structural steel framework for large industrial facilities, engineered for durability and rapid deployment.</p>
                 <Link className="inline-flex items-center gap-2 text-secondary font-bold uppercase text-sm group-hover:gap-4 transition-all" to="/works">
                   View Our Projects <span className="material-symbols-outlined">arrow_forward</span>
                 </Link>
@@ -171,18 +171,18 @@ const Home = () => {
                 <p className="font-body-md text-on-primary-container">Durable roofing sheds and prefabricated factory sheds customized to your specific industrial requirements.</p>
               </div>
             </div>
-            {/* Factory Frameworks */}
+            {/* Structural Engineering */}
             <div className="md:col-span-2">
               <div className="grid grid-cols-2 h-full gap-gutter">
                 <div className="relative overflow-hidden">
-                  <img className="w-full h-full object-cover grayscale" alt="factory steel framework" src="/assets/20210127_173542.jpg" />
+                  <img className="w-full h-full object-cover" alt="precision structural steel engineering" src="/assets/industrial_shed_interior.jpg" />
                 </div>
                 <div className="bg-white border border-outline-variant p-8">
-                  <h3 className="font-headline-md text-primary mb-4">Factory Frameworks</h3>
-                  <p className="font-body-md text-on-surface-variant mb-4">Specialized structural sections for massive industrial complexes and plant layouts.</p>
+                  <h3 className="font-headline-md text-primary mb-4">Structural Engineering</h3>
+                  <p className="font-body-md text-on-surface-variant mb-4">High-precision structural sections for massive industrial complexes and specialized plant layouts.</p>
                   <ul className="space-y-2">
-                    <li className="flex items-center gap-2 font-label-sm text-on-surface-variant"><span className="w-1.5 h-1.5 bg-secondary"></span> Heavy Beam Support</li>
-                    <li className="flex items-center gap-2 font-label-sm text-on-surface-variant"><span className="w-1.5 h-1.5 bg-secondary"></span> Modular Factory Sections</li>
+                    <li className="flex items-center gap-2 font-label-sm text-on-surface-variant"><span className="w-1.5 h-1.5 bg-secondary"></span> Heavy Support Systems</li>
+                    <li className="flex items-center gap-2 font-label-sm text-on-surface-variant"><span className="w-1.5 h-1.5 bg-secondary"></span> Bespoke Steel Assemblies</li>
                   </ul>
                 </div>
               </div>
