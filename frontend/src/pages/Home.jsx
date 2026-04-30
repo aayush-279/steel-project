@@ -1,6 +1,18 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+  const [copied, setCopied] = useState(false);
+
+  const handleGSTClick = (e) => {
+    e.preventDefault();
+    const gstin = "24ANBPP0118N1Z4";
+    navigator.clipboard.writeText(gstin).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+      window.open("https://services.gst.gov.in/services/searchtp", "_blank");
+    });
+  };
   return (
     <div className="bg-background text-on-surface font-body-md overflow-x-hidden">
       {/* Hero Section */}
@@ -98,15 +110,20 @@ const Home = () => {
                   <div className="text-secondary font-label-sm uppercase tracking-widest opacity-70">GST Registered</div>
                   <div className="font-headline-sm text-primary text-xl">Jul'17</div>
                 </div>
-                <div className="flex flex-col gap-1">
+                <div className="flex flex-col gap-1 relative group/gst">
                   <div className="text-secondary font-label-sm uppercase tracking-widest opacity-70">GST Number</div>
                   <a 
                     href="https://services.gst.gov.in/services/searchtp" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="font-headline-sm text-primary text-base font-mono hover:text-secondary transition-colors cursor-pointer"
+                    onClick={handleGSTClick}
+                    className="font-headline-sm text-primary text-base font-mono hover:text-secondary transition-colors cursor-pointer flex items-center gap-2"
                   >
                     24**********1Z4
+                    <span className="material-symbols-outlined text-sm opacity-50 group-hover/gst:opacity-100">content_copy</span>
+                    {copied && (
+                      <span className="absolute -top-8 left-0 bg-secondary text-white text-[10px] font-bold px-2 py-1 rounded shadow-lg animate-in fade-in slide-in-from-bottom-2 z-20">
+                        COPIED TO CLIPBOARD!
+                      </span>
+                    )}
                   </a>
                 </div>
               </div>
