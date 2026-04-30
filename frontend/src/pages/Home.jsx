@@ -174,7 +174,7 @@ const Home = () => {
             {/* Structural Engineering */}
             {/* Shed Exterior Highlight */}
             <div className="md:col-span-2 relative overflow-hidden bg-white border border-outline-variant">
-              <img className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="industrial shed exterior project" src="/assets/industrial_shed_exterior.jpg" />
+              <img className="w-full h-full object-cover transition-all duration-700" alt="industrial shed exterior project" src="/assets/industrial_shed_exterior.jpg" />
             </div>
           </div>
         </div>
