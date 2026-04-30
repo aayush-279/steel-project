@@ -13,7 +13,7 @@ export const projectsData = [
   },
   { 
     folder: "D.K.Patel Hall @ Ahmedabad", 
-    images: ["20180207_163804.jpg", "20180207_163807.jpg", "IMG-20171229-WA0038.jpeg", "IMG-20171229-WA0040.jpeg", "IMG-20171229-WA0042.jpeg", "IMG-20171229-WA0044.jpeg", "IMG-NEW-01.jpg", "IMG-NEW-02.jpg"] 
+    images: ["20180207_163804.jpg", "20180207_163807.jpg", "IMG-20171229-WA0038.jpeg", "IMG-20171229-WA0040.jpeg", "IMG-20171229-WA0042.jpeg", "IMG-20171229-WA0044.jpeg", "IMG_20180505_121458.jpg", "IMG_20180505_121628.jpg"] 
   },
   { 
     folder: "Memco Sports Complex ( Veer Savarkar Sports Complex ) @ Ahmedabad", 
