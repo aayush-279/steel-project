@@ -47,7 +47,7 @@ const Header = () => {
             />
             <div className="flex flex-col">
               <div className="flex items-center">
-                <span className="text-lg font-black text-blue-900 tracking-tighter uppercase hidden sm:block">Patel Engineering Co.</span>
+                <span className="text-sm sm:text-lg font-black text-blue-900 tracking-tighter uppercase block">Patel Engineering Co.</span>
                 {tabName && (
                   <span className="xl:hidden sm:ml-3 sm:pl-3 sm:border-l-2 sm:border-gray-300 text-xs sm:text-sm font-bold text-secondary uppercase tracking-widest">{tabName}</span>
                 )}
