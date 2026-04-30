@@ -101,7 +101,7 @@ const Home = () => {
                 <div className="flex flex-col gap-1">
                   <div className="text-secondary font-label-sm uppercase tracking-widest opacity-70">GST Number</div>
                   <a 
-                    href="https://cleartax.in/gst-number-search/24ANBPP0118N1Z4" 
+                    href="https://services.gst.gov.in/services/searchtp" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="font-headline-sm text-primary text-base font-mono hover:text-secondary transition-colors cursor-pointer"
