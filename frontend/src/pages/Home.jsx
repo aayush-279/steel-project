@@ -190,7 +190,7 @@ const Home = () => {
             {/* Real Project 2 */}
             <div className="border border-outline-variant group bg-surface-container-lowest">
               <div className="h-64 overflow-hidden">
-                <img className="w-full h-full object-cover transition-transform group-hover:scale-110 duration-700" alt="steel structure installation" src="/assets/structural_assembly.jpg" />
+                <img className="w-full h-full object-cover transition-transform group-hover:scale-110 duration-700" alt="steel structure installation" src="/assets/factory_framework.jpg" />
               </div>
               <div className="p-6">
                 <div className="text-secondary font-label-sm uppercase mb-2">Factory Construction</div>
