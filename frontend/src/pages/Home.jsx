@@ -18,7 +18,7 @@ const Home = () => {
       {/* Hero Section */}
       <header className="relative h-[870px] flex items-start overflow-hidden bg-primary-container">
         <div className="absolute inset-0 z-0">
-          <img className="w-full h-full object-cover opacity-60 grayscale-0 md:grayscale hover:grayscale-0 transition-all duration-700" alt="massive industrial steel framework construction" src="/assets/20210122_105113.jpg" />
+          <img className="w-full h-full object-cover opacity-60 transition-all duration-700" alt="massive industrial steel framework construction" src="/assets/20210122_105113.jpg" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary-container via-primary-container/90 to-transparent"></div>
         </div>
         <div className="container mx-auto px-margin relative z-10">
@@ -67,7 +67,7 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-secondary"></div>
-              <img className="relative z-10 w-full h-[500px] object-cover grayscale-0 md:grayscale hover:grayscale-0 transition-all duration-700" alt="black and white close-up of a precision engineer" src="/assets/20210122_105113.jpg" />
+              <img className="relative z-10 w-full h-[500px] object-cover transition-all duration-700" alt="black and white close-up of a precision engineer" src="/assets/20210122_105113.jpg" />
               <div className="absolute -bottom-10 -right-10 bg-white p-10 border border-outline-variant shadow-lg z-20">
                 <div className="font-headline-xl text-secondary">20+</div>
                 <div className="font-label-sm text-on-surface-variant uppercase">Years of Expertise</div>
@@ -160,9 +160,8 @@ const Home = () => {
                 <p className="font-body-md text-on-primary-container">Durable roofing sheds and prefabricated factory sheds customized to your specific industrial requirements.</p>
               </div>
             </div>
-            {/* Structural Engineering */}
             <div className="md:col-span-2 relative group overflow-hidden bg-white border border-outline-variant">
-              <img className="w-full h-full object-cover grayscale-0 md:grayscale group-hover:grayscale-0 transition-all duration-700" alt="industrial shed exterior project" src="/assets/industrial_shed_exterior.jpg" />
+              <img className="w-full h-full object-cover transition-all duration-700" alt="industrial shed exterior project" src="/assets/industrial_shed_exterior.jpg" />
             </div>
           </div>
         </div>
@@ -191,7 +190,7 @@ const Home = () => {
             {/* Real Project 2 */}
             <div className="border border-outline-variant group bg-surface-container-lowest">
               <div className="h-64 overflow-hidden">
-                <img className="w-full h-full object-cover grayscale-0 md:grayscale hover:grayscale-0 transition-transform group-hover:scale-110 duration-700" alt="steel structure installation" src="/assets/structural_assembly.jpg" />
+                <img className="w-full h-full object-cover transition-transform group-hover:scale-110 duration-700" alt="steel structure installation" src="/assets/structural_assembly.jpg" />
               </div>
               <div className="p-6">
                 <div className="text-secondary font-label-sm uppercase mb-2">Factory Construction</div>
