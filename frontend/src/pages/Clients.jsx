@@ -2,18 +2,6 @@ const Clients = () => {
   const logos = [
     "ACCEL - Logo.jpg",
     "AMC-logo.jpg",
-    "Govardhannathji Engineers LLP - LOGO.jpg",
-    "Inox Air Products - Logo.jpg",
-    "Malani Construction Co - Logo.jpg",
-    "Nila Infrastructure Ltd. - Logo.jpeg",
-    "P C Snehal-logo.png",
-    "Samruddhi Engineering - logo.jpg",
-    "Shailja - Logo.jpg",
-    "Silicon engeneering - logo.jpg",
-    "Vadilal - Logo.jpg",
-    "Vadodara Municipal Corporation - Logo.jpg",
-    "Vandematram - logo.jpg",
-    "Vishv Umiya Foundation - Logo.jpg",
     "client-new-1.png",
     "client-new-2.png",
     "client-new-3.jpeg",
@@ -27,8 +15,20 @@ const Clients = () => {
     "client-new-11.jpeg",
     "client-new-12.jpeg",
     "client-new-13.jpeg",
+    "Govardhannathji Engineers LLP - LOGO.jpg",
     "iACE - Logo.jpg",
-    "ongc - Logo.jpg"
+    "Inox Air Products - Logo.jpg",
+    "Malani Construction Co - Logo.jpg",
+    "Nila Infrastructure Ltd. - Logo.jpeg",
+    "ongc - Logo.jpg",
+    "P C Snehal-logo.png",
+    "Samruddhi Engineering - logo.jpg",
+    "Shailja - Logo.jpg",
+    "Silicon engeneering - logo.jpg",
+    "Vadilal - Logo.jpg",
+    "Vadodara Municipal Corporation - Logo.jpg",
+    "Vandematram - logo.jpg",
+    "Vishv Umiya Foundation - Logo.jpg"
   ];
 
   return (
