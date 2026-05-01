@@ -14,6 +14,19 @@ const Clients = () => {
     "Vadodara Municipal Corporation - Logo.jpg",
     "Vandematram - logo.jpg",
     "Vishv Umiya Foundation - Logo.jpg",
+    "client-new-1.png",
+    "client-new-2.png",
+    "client-new-3.jpeg",
+    "client-new-4.jpeg",
+    "client-new-5.jpeg",
+    "client-new-6.jpeg",
+    "client-new-7.jpeg",
+    "client-new-8.jpeg",
+    "client-new-9.jpeg",
+    "client-new-10.jpeg",
+    "client-new-11.jpeg",
+    "client-new-12.jpeg",
+    "client-new-13.jpeg",
     "iACE - Logo.jpg",
     "ongc - Logo.jpg"
   ];
@@ -47,7 +60,7 @@ const Clients = () => {
             {logos.map((filename, index) => (
               <img
                 key={`logo-2-${index}`}
-                src={`/assets/LOGO/PARTIES LOGO/${filename}`}
+                src={`/assets/clients/${filename}`}
                 alt={`Client Logo ${index + 1}`}
                 className="h-24 md:h-36 w-auto max-w-[300px] object-contain mix-blend-multiply transition-transform duration-300 hover:scale-110"
               />
